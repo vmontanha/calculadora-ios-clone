@@ -27,7 +27,7 @@
                                         "foregroundImage": "./assets/adaptive-icon.png",
                                         "backgroundColor": "#d9d9d9"
                               },
-                              "VersionCode": "2",
+                              "versionCode": "2",
                               "package": "com.vinaomontanha.calculadoraiosclone"
                     },
                     "web": {
