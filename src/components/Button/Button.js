@@ -16,8 +16,8 @@ const Button = (props) => {
           if (props.operation) stylesButton.push(styles.operationButton)
 
           return (
-                    <TouchableHighlight onPress={props.onClick}>
-                              <Text style={stylesButton}>{props.label}</Text>
+                    <TouchableHighlight onPress={() => props.onClick(props.label)}>
+                              <Text style={stylesButton}>{props.currentLabel}</Text>
                     </TouchableHighlight>
           )
 }
