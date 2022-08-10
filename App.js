@@ -77,22 +77,22 @@ export default class App extends Component {
                                                   <Display value={this.state.displayValue} />
                                                   <View style={styles.buttons}>
                                                             <Button currentLabel='Clear' triple onClick={this.clear} />
-                                                            <Button currentLabel='÷' label="/" operation />
+                                                            <Button currentLabel='÷' label="/" operation onClick={this.setOperation} />
                                                             <Button label='7' currentLabel='7' onClick={this.addDigit} />
                                                             <Button label='8' currentLabel='8' onClick={this.addDigit} />
                                                             <Button label='9' currentLabel='9' onClick={this.addDigit} />
-                                                            <Button currentLabel='÷' label="*" operation />
+                                                            <Button currentLabel='x' label="*" operation onClick={this.setOperation} />
                                                             <Button label='4' currentLabel='4' onClick={this.addDigit} />
                                                             <Button label='5' currentLabel='5' onClick={this.addDigit} />
                                                             <Button label='6' currentLabel='6' onClick={this.addDigit} />
-                                                            <Button label='-' currentLabel='-' operation />
+                                                            <Button label='-' currentLabel='-' operation onClick={this.setOperation} />
                                                             <Button label='1' currentLabel='1' onClick={this.addDigit} />
                                                             <Button label='2' currentLabel='2' onClick={this.addDigit} />
                                                             <Button label='3' currentLabel='3' onClick={this.addDigit} />
-                                                            <Button label='+' currentLabel='+' operation />
+                                                            <Button label='+' currentLabel='+' operation onClick={this.setOperation} />
                                                             <Button label='0' currentLabel='0' double onClick={this.addDigit} />
                                                             <Button label='.' currentLabel='.' onClick={this.addDigit} />
-                                                            <Button label='=' currentLabel='=' operation />
+                                                            <Button label='=' currentLabel='=' operation onClick={this.setOperation} />
                                                   </View>
                                         </View>
                               </>
