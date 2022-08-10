@@ -72,8 +72,7 @@ export default class App extends Component {
           render() {
                     return (
                               <>
-                                        <StatusBar animated={true}
-                                                  backgroundColor="transparent" />
+                                        <StatusBar barStyle='dark-content' backgroundColor='#fff' />
                                         <View style={styles.container}>
                                                   <Display value={this.state.displayValue} />
                                                   <View style={styles.buttons}>
