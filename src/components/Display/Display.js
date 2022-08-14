@@ -21,10 +21,7 @@ const Display = (props) => {
 const styles = StyleSheet.create({
           display: {
                     flex: 1,
-                    paddingTop: 20,
-                    paddingBottom: 0,
-                    paddingLeft: 10,
-                    paddingRight: 20,
+                    padding: 5,
                     justifyContent: 'flex-end',
                     backgroundColor: '#000',
                     alignItems: 'flex-end',
